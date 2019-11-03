@@ -1,23 +1,12 @@
-# Visual Studio Codeで作るLT資料 〜 脱パワーポイント
+# Visual Studio Codeで作るLT資料
 
 ## はじめに
 
-[SoftwareDesign 11月号](https://gihyo.jp/magazine/SD/archive/2019/201911)のVisual Studio Code快適生活という記事の中で、VS Codeでプレゼンテーションを考えてみるという話があり、面白そうだったので試してみました。
-
-LT資料はサクッと作ってしまいたい、発表時にはソースコードを交えながら話したいという思いを実現します。
-
-本記事で使用したファイルは、GitHubにアップロードしております。
+VSCodeで作成するプレゼンテーション資料のサンプルコードを載せています。
 
 ## 環境
 
 - VS Code 1.38  
-  VS Codeをインストールしていない人は[公式ページ](https://code.visualstudio.com/)からインストールしましょう
-
-## 本記事で登場するVS Codeプラグイン
-
-- Marp for VS Code
-- vscode-reveal
-- Presentation Mode
 
 ## VS CodeでのLT資料作成
 
@@ -182,16 +171,3 @@ VS Codeをプレゼンテーション用に全画面に表示することがで�
 
 同じ要領で、ソースコードを全画面表示にすることで、発表中にコードを見せながら解説する際にも活用できます。
 <img width="1434" alt="スクリーンショット 2019-11-03 18.23.11.png" src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/186355/f18cbc65-9e11-9313-1771-075dba7bdbd8.png">
-
-
-## 終わりに
-
-LT資料をサクッと作って、サクッと発表するために、以下のVS Codeを使用しました。
-
-- Marp for VS Code：スライド作成 ＋ PDFで出力
-- vscode-reveal：VS Code上でプレゼンテーション
-- Presentation Mode：VS Codeで全画面表示 ＋ プレゼン, ソースコード共有
-
-パワーポイントを使わずともマークダウンでスライドを作成できるのはとても便利だなと思いました。複雑な図表の作成、図表の細かな位置の調整等が必要な場合には不向きですが、LTのようにメッセージをスライドに並べてサクッと発表する場合には使えるのではないかと思います。
-
-皆さんもVS CodeでLT資料の作成・発表をしてみてはいかがでしょうか。
