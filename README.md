@@ -6,7 +6,7 @@ VSCodeで作成するプレゼンテーション資料のサンプルコード�
 
 ## 環境
 
-- VS Code 1.38  
+- VS Code 1.38
 
 ## VS CodeでのLT資料作成
 
@@ -28,7 +28,7 @@ Markdown形式のファイルをプレゼンテーション用のスライドに
 先頭にYAMLヘッダを記述するだけです。
 細かな設定を知りたい方は、[Marp公式ページ](https://marpit.marp.app/markdown)をご覧ください。
 
-```
+```md
 ---
 marp: true
 header: 'header text'
@@ -42,7 +42,7 @@ footer: 'footer text'
 
 今回は以下のファイルを作成しました。
 
-``` slide.md
+``` md:slide.md
 ---
 marp: true
 header: 'header text'
@@ -57,7 +57,7 @@ footer: 'footer text'
 
 ***@gonkunkun***
 
---- 
+---
 
 ## もくじ
 
@@ -130,7 +130,7 @@ Marp for VS Codeを使用してスライドを作成することはできまし�
 先頭にYAMLヘッダに以下を追記します。ファイル自体はYAMLヘッダを変更しただけです。気になる方はGithubリポジトリのslide-reveal.mdをご確認ください。
 細かな設定を知りたい方は、[こちら](https://marketplace.visualstudio.com/items?itemName=evilz.vscode-reveal)をご覧ください。
 
-```
+```md
 ---
 theme: "black"
 transition: "none"

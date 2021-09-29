@@ -5,14 +5,14 @@ footer: 'footer text'
 ---
 <!-- $theme: gaia -->
 <!-- $size: 16:9 -->
-<!-- page_number: true -->
 <!-- paginate: true -->
 
 # Marp for VS Code スライドサンプル
 
 ***@gonkunkun***
 
---- 
+
+---
 
 ## もくじ
 
